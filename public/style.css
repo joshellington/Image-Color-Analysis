@@ -1,0 +1,33 @@
+*{margin:0;padding:0;}
+
+body {
+  font-family:'Helvetica Neue', sans-serif;
+}
+
+#wrapper {
+  width:700px;
+  margin:0 auto;
+}
+
+.image {
+  overflow:hidden;
+  margin-bottom:60px;
+  position:relative;
+}
+
+h2 {
+  font-weight:100;
+  font-size:14px;
+  padding:10px 0 10px;
+}
+
+img {
+  display:block;
+  max-width:100%;
+}
+
+span.box {
+  width:10px;
+  height:20px;
+  display:block;
+}

@@ -1,0 +1,23 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    color (1.4.1)
+    color_namer (0.1.0)
+      color (>= 1.4.1)
+    rack (1.3.5)
+    rack-protection (1.1.4)
+      rack
+    rmagick (2.13.1)
+    sinatra (1.3.1)
+      rack (>= 1.3.4, ~> 1.3)
+      rack-protection (>= 1.1.2, ~> 1.1)
+      tilt (>= 1.3.3, ~> 1.3)
+    tilt (1.3.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  color_namer
+  rmagick
+  sinatra (~> 1.1)

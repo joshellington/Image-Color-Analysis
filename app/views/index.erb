@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title></title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+  <div id="wrapper">
+    <% @files.each do |file| %>
+      <div class="image">
+        <img src="/images/<%= file[0] %>">
+        <h2><%= file[1].inspect %></h2>
+        <% file[1].each do |f| %>
+          <span class="box" style="background:<%= f[0] %>;width:<%= f[1] * 4 %>px;"></span>
+        <% end %>
+      </div>
+    <% end %>
+  </div>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+
+</body>
+</html>
